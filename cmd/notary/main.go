@@ -17,7 +17,7 @@ import (
 
 const configFileName string = "config"
 const defaultTrustDir string = ".notary/"
-const defaultServerURL = "https://notary-server:4443"
+const defaultServerURL = "http://notary_notaryserver_1:4443"
 const idSize = 64
 
 var rawOutput bool
